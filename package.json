@@ -12,6 +12,9 @@
     "start": "yarn run dustc; nodemon",
     "dustc": "cd ./views; dustc *.dust partials/*.dust -o ../public/js/views.js"
   },
+  "engines": {
+    "node": "^26"
+  },
   "dependencies": {
     "body-parser": "^1.19.0",
     "dustjs-helpers": "^1.7.4",
